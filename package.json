@@ -1,0 +1,19 @@
+{
+  "name": "nodejstaskmanager",
+  "version": "1.0.0",
+  "description": "project1_Airtribe",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm install && nodemon src/app.js",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Shashwat Sanjeev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
