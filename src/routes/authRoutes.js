@@ -25,7 +25,7 @@ authRoutes.post("/register", (req, res) => {
   let users = userDB.users;
   let id;
   if (users.length) {
-    let [{ id: lastId }] = tasks.slice(-1);
+    let [{ id: lastId }] = users.slice(-1);
     id = ++lastId;
   } else id = 1;
 

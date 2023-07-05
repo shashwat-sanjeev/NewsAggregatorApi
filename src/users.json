@@ -1,11 +1,1 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "username": "shashwat1",
-      "email": "shashwat1@gmail.com",
-      "password": "$2b$10$dzbOrzuSwdawDNpglVjmXuWjf2QCgJfVK1xWHwhfdATIawUxVkFve",
-      "token": null
-    }
-  ]
-}
+{"users":[{"id":1,"username":"shashwat1","email":"shashwat1@gmail.com","password":"$2b$10$dzbOrzuSwdawDNpglVjmXuWjf2QCgJfVK1xWHwhfdATIawUxVkFve","token":null},{"id":2,"username":"shashwat2","email":"shashwat2@gmail.com","password":"$2b$10$T5kq9Cv/Vxhr1vBs8KY/GeH0FnyaUy8Qd28P//x2gaIqNsJWdXwxG","token":null}]}
