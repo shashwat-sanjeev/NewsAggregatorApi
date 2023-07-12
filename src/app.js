@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const routes = require("express").Router();
 const authRoutes = require("./routes/authRoutes");
+const newsRoutes = require("./routes/newsRoutes");
 
 const app = express();
 app.use(cors());
@@ -17,6 +18,7 @@ routes.get("/", (req, res) => {
 });
 
 routes.use("/", authRoutes);
+routes.use("/news", newsRoutes);
 
 app.listen(PORT, (err) => {
   if (!err) {

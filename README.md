@@ -24,7 +24,7 @@ Endpoints to manage users and their news preferences
 
 | Body Parameter | Type     | Description                                |
 | :------------- | :------- | :----------------------------------------- |
-| `username`     | `string` | **Required**. user_name                    |
+| `email`        | `string` | **Required**. user email                   |
 | `password`     | `string` | **Required**. password created at register |
 
 #### Get LoggedIn user
@@ -37,4 +37,13 @@ Endpoints to manage users and their news preferences
 
 ```http
   POST /logout
+  Add accessToken in Authorization header with type Bearer
+```
+
+```http
+  GET /news
+```
+
+```http
+  GET /news/search/:keyword
 ```
